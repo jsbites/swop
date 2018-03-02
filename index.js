@@ -1,3 +1,5 @@
+const identity = (x) => x;
+
 const swop = (
   reducers,
   initialState,
