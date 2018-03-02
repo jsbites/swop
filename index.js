@@ -11,7 +11,5 @@ const swop = (
   reducers[type] || identityReducer || identity
 )(state, { type, payload });
 
-export {
-  swop
-};
+export default swop;
 
