@@ -24,4 +24,3 @@ export {
 };
 
 export default swop;
-
