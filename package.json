@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/jsbites/swop/issues"
   },
-  "homepage": "https://github.com/jsbites/swop#readme"
+  "homepage": "https://github.com/jsbites/swop#readme",
+  "peerDependencies": {
+    "redux": "^3.7.2"
+  }
 }

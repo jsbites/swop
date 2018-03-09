@@ -1,3 +1,9 @@
+/*
+ *
+ */
+
+import { bindActionCreators } from 'redux';
+
 const identity = (x) => x;
 
 const swop = (
@@ -10,6 +16,12 @@ const swop = (
 ) => (
   reducers[type] || identityReducer || identity
 )(state, { type, payload });
+
+const mapper = (actions) => (dispatch) => bindActionCreators(actions, dispatch)
+
+export {
+  mapper
+};
 
 export default swop;
 
